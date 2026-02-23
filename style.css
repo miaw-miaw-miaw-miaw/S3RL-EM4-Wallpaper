@@ -1,0 +1,414 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./Wallpapers/Wallpaper9/Wallpaper9-NoS3RL.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.mobile-blocker {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.98);
+    color: #fff;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.blocker-content {
+    padding: 2rem;
+    border: 1px solid #333;
+    max-width: 80%;
+    background-color: #1a1d21;
+}
+
+.ctn {
+    background-color: #212529;
+    padding: 1.5rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 5vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: none;
+    filter: drop-shadow(0 0 0 white);
+    transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    will-change: filter;
+}
+
+.logo:hover {
+    filter: brightness(0) invert(1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0;
+    padding: 0 5vw;
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    flex-grow: 1;
+    content-visibility: auto;
+    contain-intrinsic-size: 0 500px;
+    box-sizing: border-box;
+}
+
+.wallpaper-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    aspect-ratio: 16 / 9;
+    background-color: #1a1d20;
+    border: none;
+    box-sizing: border-box;
+    will-change: box-shadow;
+}
+
+.wallpaper-item:hover {
+    box-shadow: inset 0 0 0 4px #2196F3;
+    z-index: 1;
+}
+
+.wallpaper-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.3s ease;
+    background-color: #1a1d21;
+}
+
+.wallpaper-item:hover img {
+    opacity: 0.8;
+}
+
+.wallpaper-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.wallpaper-item:hover .wallpaper-info {
+    opacity: 1;
+}
+
+.wallpaper-info h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #2196F3;
+    text-transform: uppercase;
+}
+
+.wallpaper-info p {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+/* Modal Layout Original Restaurado */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: #1a1d21;
+    margin: 5vh auto;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    width: 90vw;
+    max-width: 1200px;
+    position: relative;
+    box-sizing: border-box;
+    animation: modalIn 0.3s ease-out;
+    transition: max-width 0.3s ease;
+}
+
+/* Modal Compacto para imágenes sin variantes */
+.modal-content.is-single {
+    max-width: 800px;
+}
+
+.modal-content.is-single .preview-container {
+    padding: 1rem 0;
+}
+
+@keyframes modalIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media (min-width: 992px) {
+    .modal-body {
+        flex-direction: row;
+    }
+}
+
+.preview-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#modal-preview {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background-color: #000;
+    border: 1px solid #333;
+}
+
+.variants-container {
+    flex: 0 0 350px; /* Ancho fijo en PC */
+    background: #0d0f12;
+    padding: 1.2rem;
+    max-height: 75vh;
+    overflow-y: auto;
+    border: 1px solid #333;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #000;
+}
+
+@media (max-width: 991px) {
+    .variants-container {
+        flex: 1;
+        max-width: 100%; /* Ocupa todo el ancho en móviles/tablets */
+    }
+}
+
+.variants-container h3 {
+    margin-top: 0;
+    color: #f8f9fa;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.variants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.variant-card {
+    background: #1a1d21;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.variant-card:hover {
+    border-color: #666;
+}
+
+.variant-card.active {
+    border-color: #2196F3;
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.2);
+}
+
+.variant-thumb-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #000;
+}
+
+.variant-thumb-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.variant-card:hover img, .variant-card.active img {
+    opacity: 1;
+}
+
+.variant-name {
+    padding: 0.4rem;
+    font-size: 0.65rem;
+    color: #888;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+
+.variant-card.active .variant-name {
+    color: #2196F3;
+    background: rgba(33, 150, 243, 0.05);
+}
+
+.btn {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: inline-block;
+    transition: background-color 0.2s, transform 0.1s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1976D2;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+footer {
+    padding: 1.5rem 5vw; /* Reducir padding vertical para un look más compacto */
+    background-color: #1a1d21;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Por defecto vertical, en desktop será row */
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem; /* Espacio entre los elementos */
+    color: #888; /* Color del texto para todo el footer */
+}
+
+footer p {
+    margin: 0; /* Eliminar margen predeterminado de los párrafos */
+}
+
+@media (min-width: 769px) {
+    footer {
+        flex-direction: row; /* Horizontal en pantallas grandes */
+        justify-content: center; /* Centrar todos los elementos */
+        gap: 2rem; /* Más espacio entre los bloques en horizontal */
+        padding: 1.5rem 5vw;
+        flex-wrap: wrap; /* Permitir que los elementos salten de línea si no caben */
+    }
+
+    footer p {
+        flex-shrink: 0; /* Prevenir que los párrafos se encojan demasiado */
+    }
+}
+
+footer a {
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Centrar los iconos dentro del contenedor */
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #888;
+    transition: color 0.2s, transform 0.2s;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: #2196F3;
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+.social-links svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    body { font-size: 14px; }
+    .ctn { padding: 1rem 5vw; }
+    .logo { max-width: 200px; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+    .modal-content { width: 95vw; margin: 2vh auto; }
+    .variants-container { max-height: 35vh; }
+}
