@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3RL Wallpapers</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div id="mobile-blocker" class="mobile-blocker">
+        <div class="blocker-content">
+            <h1>Acceso Restringido</h1>
+            <p>Esta página no está disponible en dispositivos móviles. Por favor, accede desde un PC o una tablet.</p>
+        </div>
+    </div>
+    <div class="ctn">
+        <header>
+            <a href="https://www.djs3rl.com" target="_blank">
+                <img src="./src/logo.svg" alt="S3RL Logo" class="logo">
+            </a>
+        </header>
+    </div>
+
+    <main id="wallpaper-list" class="grid"></main>
+
+    <div id="wallpaper-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="preview-container">
+                    <img id="modal-preview" src="" alt="Preview">
+                    <a id="download-btn" href="#" download class="btn">Download</a>
+                </div>
+                <div class="variants-container">
+                    <h3>Available Variants</h3>
+                    <div id="variants-list" class="variants-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="https://discord.gg/vSASVB9wX7">NeuStuPer</a></p>
+        <p>© S3RL. All rights reserved.</p>
+        <p>This is a fan-made website and is not affiliated with or endorsed by S3RL.</p>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
