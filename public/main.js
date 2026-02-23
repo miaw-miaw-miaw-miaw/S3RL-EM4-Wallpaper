@@ -1,185 +1,185 @@
 const wallpaperSets = [
     {
         name: "Wallpaper 1",
-        main: "./public/Wallpapers/Wallpaper1/Wallpaper1.jpeg",
+        main: "./Wallpapers/Wallpaper1/Wallpaper1.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper1/Wallpaper1.jpeg" },
-            { name: "Alb", path: "./public/Wallpapers/Wallpaper1/Wallpaper1-Alb.jpeg" },
-            { name: "Min", path: "./public/Wallpapers/Wallpaper1/Wallpaper1-Min.jpeg" },
-            { name: "Min-Alb", path: "./public/Wallpapers/Wallpaper1/Wallpaper1-Min-Alb.jpeg" },
-            { name: "Min-Stroke", path: "./public/Wallpapers/Wallpaper1/Wallpaper1-Min-Stroke.jpeg" },
-            { name: "Min-Stroke-Alb", path: "./public/Wallpapers/Wallpaper1/Wallpaper1-Min-Stroke-Alb.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper1/Wallpaper1.jpeg" },
+            { name: "Alb", path: "./Wallpapers/Wallpaper1/Wallpaper1-Alb.jpeg" },
+            { name: "Min", path: "./Wallpapers/Wallpaper1/Wallpaper1-Min.jpeg" },
+            { name: "Min-Alb", path: "./Wallpapers/Wallpaper1/Wallpaper1-Min-Alb.jpeg" },
+            { name: "Min-Stroke", path: "./Wallpapers/Wallpaper1/Wallpaper1-Min-Stroke.jpeg" },
+            { name: "Min-Stroke-Alb", path: "./Wallpapers/Wallpaper1/Wallpaper1-Min-Stroke-Alb.jpeg" }
         ]
     },
     {
         name: "Wallpaper 2",
-        main: "./public/Wallpapers/Wallpaper2/Wallpaper2.jpeg",
+        main: "./Wallpapers/Wallpaper2/Wallpaper2.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper2/Wallpaper2.jpeg" },
-            { name: "Alb", path: "./public/Wallpapers/Wallpaper2/Wallpaper2-Alb.jpeg" },
-            { name: "Min", path: "./public/Wallpapers/Wallpaper2/Wallpaper2-Min.jpeg" },
-            { name: "Min-Alb", path: "./public/Wallpapers/Wallpaper2/Wallpaper2-Min-Alb.jpeg" },
-            { name: "Min-Stroke", path: "./public/Wallpapers/Wallpaper2/Wallpaper2-Min-Stroke.jpeg" },
-            { name: "Min-Stroke-Alb", path: "./public/Wallpapers/Wallpaper2/Wallpaper2-Min-Stroke-Alb.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper2/Wallpaper2.jpeg" },
+            { name: "Alb", path: "./Wallpapers/Wallpaper2/Wallpaper2-Alb.jpeg" },
+            { name: "Min", path: "./Wallpapers/Wallpaper2/Wallpaper2-Min.jpeg" },
+            { name: "Min-Alb", path: "./Wallpapers/Wallpaper2/Wallpaper2-Min-Alb.jpeg" },
+            { name: "Min-Stroke", path: "./Wallpapers/Wallpaper2/Wallpaper2-Min-Stroke.jpeg" },
+            { name: "Min-Stroke-Alb", path: "./Wallpapers/Wallpaper2/Wallpaper2-Min-Stroke-Alb.jpeg" }
         ]
     },
     {
         name: "Wallpaper 3",
-        main: "./public/Wallpapers/Wallpaper3/Wallpaper3.jpeg",
+        main: "./Wallpapers/Wallpaper3/Wallpaper3.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper3/Wallpaper3.jpeg" },
-            { name: "Alb", path: "./public/Wallpapers/Wallpaper3/Wallpaper3-Alb.jpeg" },
-            { name: "Min", path: "./public/Wallpapers/Wallpaper3/Wallpaper3-Min.jpeg" },
-            { name: "Min-Alb", path: "./public/Wallpapers/Wallpaper3/Wallpaper3-Min-Alb.jpeg" },
-            { name: "Min-Stroke", path: "./public/Wallpapers/Wallpaper3/Wallpaper3-Min-Stroke.jpeg" },
-            { name: "Min-Stroke-Alb", path: "./public/Wallpapers/Wallpaper3/Wallpaper3-Min-Stroke-Alb.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper3/Wallpaper3.jpeg" },
+            { name: "Alb", path: "./Wallpapers/Wallpaper3/Wallpaper3-Alb.jpeg" },
+            { name: "Min", path: "./Wallpapers/Wallpaper3/Wallpaper3-Min.jpeg" },
+            { name: "Min-Alb", path: "./Wallpapers/Wallpaper3/Wallpaper3-Min-Alb.jpeg" },
+            { name: "Min-Stroke", path: "./Wallpapers/Wallpaper3/Wallpaper3-Min-Stroke.jpeg" },
+            { name: "Min-Stroke-Alb", path: "./Wallpapers/Wallpaper3/Wallpaper3-Min-Stroke-Alb.jpeg" }
         ]
     },
     {
         name: "Wallpaper 4",
-        main: "./public/Wallpapers/Wallpaper4/Wallpaper4.jpeg",
+        main: "./Wallpapers/Wallpaper4/Wallpaper4.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper4/Wallpaper4.jpeg" },
-            { name: "Alb", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Alb.jpeg" },
-            { name: "Efect", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Efect.jpeg" },
-            { name: "Alb-Efect", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Alb-Efect.jpeg" },
-            { name: "Min", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min.jpeg" },
-            { name: "Min-Alb", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min-Alb.jpeg" },
-            { name: "Min-Stroke", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke.jpeg" },
-            { name: "Min-Stroke-Alb", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke-Alb.jpeg" },
-            { name: "Min-Efect", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min-Efect.jpeg" },
-            { name: "Min-Alb-Efect", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min-Alb-Efect.jpeg" },
-            { name: "Min-Stroke-Efect", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke-Efect.jpeg" },
-            { name: "Min-Stroke-Alb-Efect", path: "./public/Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke-Alb-Efect.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper4/Wallpaper4.jpeg" },
+            { name: "Alb", path: "./Wallpapers/Wallpaper4/Wallpaper4-Alb.jpeg" },
+            { name: "Efect", path: "./Wallpapers/Wallpaper4/Wallpaper4-Efect.jpeg" },
+            { name: "Alb-Efect", path: "./Wallpapers/Wallpaper4/Wallpaper4-Alb-Efect.jpeg" },
+            { name: "Min", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min.jpeg" },
+            { name: "Min-Alb", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min-Alb.jpeg" },
+            { name: "Min-Stroke", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke.jpeg" },
+            { name: "Min-Stroke-Alb", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke-Alb.jpeg" },
+            { name: "Min-Efect", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min-Efect.jpeg" },
+            { name: "Min-Alb-Efect", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min-Alb-Efect.jpeg" },
+            { name: "Min-Stroke-Efect", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke-Efect.jpeg" },
+            { name: "Min-Stroke-Alb-Efect", path: "./Wallpapers/Wallpaper4/Wallpaper4-Min-Stroke-Alb-Efect.jpeg" }
         ]
     },
     {
         name: "Wallpaper 5",
-        main: "./public/Wallpapers/Wallpaper5/Wallpaper5-Dark.jpeg",
+        main: "./Wallpapers/Wallpaper5/Wallpaper5-Dark.jpeg",
         variants: [
-            { name: "Dark", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Dark.jpeg" },
-            { name: "Light", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Light.jpeg" },
-            { name: "Alb-Dark", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Alb-Dark.jpeg" },
-            { name: "Alb-Light", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Alb-Light.jpeg" },
-            { name: "Min-Dark", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Dark.jpeg" },
-            { name: "Min-Light", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Light.jpeg" },
-            { name: "Min-Alb-Dark", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Alb-Dark.jpeg" },
-            { name: "Min-Alb-Light", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Alb-Light.jpeg" },
-            { name: "Min-Stroke-Dark", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Dark.jpeg" },
-            { name: "Min-Stroke-Light", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Light.jpeg" },
-            { name: "Min-Stroke-Alb-Dark", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Alb-Dark.jpeg" },
-            { name: "Min-Stroke-Alb-Light", path: "./public/Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Alb-Light.jpeg" }
+            { name: "Dark", path: "./Wallpapers/Wallpaper5/Wallpaper5-Dark.jpeg" },
+            { name: "Light", path: "./Wallpapers/Wallpaper5/Wallpaper5-Light.jpeg" },
+            { name: "Alb-Dark", path: "./Wallpapers/Wallpaper5/Wallpaper5-Alb-Dark.jpeg" },
+            { name: "Alb-Light", path: "./Wallpapers/Wallpaper5/Wallpaper5-Alb-Light.jpeg" },
+            { name: "Min-Dark", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Dark.jpeg" },
+            { name: "Min-Light", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Light.jpeg" },
+            { name: "Min-Alb-Dark", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Alb-Dark.jpeg" },
+            { name: "Min-Alb-Light", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Alb-Light.jpeg" },
+            { name: "Min-Stroke-Dark", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Dark.jpeg" },
+            { name: "Min-Stroke-Light", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Light.jpeg" },
+            { name: "Min-Stroke-Alb-Dark", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Alb-Dark.jpeg" },
+            { name: "Min-Stroke-Alb-Light", path: "./Wallpapers/Wallpaper5/Wallpaper5-Min-Stroke-Alb-Light.jpeg" }
         ]
     },
     {
         name: "Wallpaper 6",
-        main: "./public/Wallpapers/Wallpaper6/Wallpaper6.jpeg",
+        main: "./Wallpapers/Wallpaper6/Wallpaper6.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper6/Wallpaper6.jpeg" },
-            { name: "ALT", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-ALT.jpeg" },
-            { name: "Alb", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Alb.jpeg" },
-            { name: "Alb-ALT", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Alb-ALT.jpeg" },
-            { name: "Min", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min.jpeg" },
-            { name: "Min-ALT", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min-ALT.jpeg" },
-            { name: "Min-Alb", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min-Alb.jpeg" },
-            { name: "Min-Alb-ALT", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min-Alb-ALT.jpeg" },
-            { name: "Min-Stroke", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke.jpeg" },
-            { name: "Min-Stroke-ALT", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke-ALT.jpeg" },
-            { name: "Min-Stroke-Alb", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke-Alb.jpeg" },
-            { name: "Min-Stroke-Alb-ALT", path: "./public/Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke-Alb-ALT.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper6/Wallpaper6.jpeg" },
+            { name: "ALT", path: "./Wallpapers/Wallpaper6/Wallpaper6-ALT.jpeg" },
+            { name: "Alb", path: "./Wallpapers/Wallpaper6/Wallpaper6-Alb.jpeg" },
+            { name: "Alb-ALT", path: "./Wallpapers/Wallpaper6/Wallpaper6-Alb-ALT.jpeg" },
+            { name: "Min", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min.jpeg" },
+            { name: "Min-ALT", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min-ALT.jpeg" },
+            { name: "Min-Alb", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min-Alb.jpeg" },
+            { name: "Min-Alb-ALT", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min-Alb-ALT.jpeg" },
+            { name: "Min-Stroke", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke.jpeg" },
+            { name: "Min-Stroke-ALT", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke-ALT.jpeg" },
+            { name: "Min-Stroke-Alb", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke-Alb.jpeg" },
+            { name: "Min-Stroke-Alb-ALT", path: "./Wallpapers/Wallpaper6/Wallpaper6-Min-Stroke-Alb-ALT.jpeg" }
         ]
     },
     {
         name: "Wallpaper 7",
-        main: "./public/Wallpapers/Wallpaper7/Wallpaper7.jpeg",
+        main: "./Wallpapers/Wallpaper7/Wallpaper7.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper7/Wallpaper7.jpeg" },
-            { name: "ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-ALT.jpeg" },
-            { name: "Dark", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Dark.jpeg" },
-            { name: "Dark-ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Dark-ALT.jpeg" },
-            { name: "Light", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Light.jpeg" },
-            { name: "Alb", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Alb.jpeg" },
-            { name: "Alb-ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Alb-ALT.jpeg" },
-            { name: "Alb-Dark", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Alb-Dark.jpeg" },
-            { name: "Alb-Dark-ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Alb-Dark-ALT.jpeg" },
-            { name: "Alb-Light", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Alb-Light.jpeg" },
-            { name: "Min", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min.jpeg" },
-            { name: "Min-ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-ALT.jpeg" },
-            { name: "Min-Dark", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Dark.jpeg" },
-            { name: "Min-Dark-ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Dark-ALT.jpeg" },
-            { name: "Min-Light", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Light.jpeg" },
-            { name: "Min-Alb", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Alb.jpeg" },
-            { name: "Min-Alb-ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-ALT.jpeg" },
-            { name: "Min-Alb-Dark", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-Dark.jpeg" },
-            { name: "Min-Alb-Dark-ALT", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-Dark-ALT.jpeg" },
-            { name: "Min-Alb-Light", path: "./public/Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-Light.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper7/Wallpaper7.jpeg" },
+            { name: "ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-ALT.jpeg" },
+            { name: "Dark", path: "./Wallpapers/Wallpaper7/Wallpaper7-Dark.jpeg" },
+            { name: "Dark-ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-Dark-ALT.jpeg" },
+            { name: "Light", path: "./Wallpapers/Wallpaper7/Wallpaper7-Light.jpeg" },
+            { name: "Alb", path: "./Wallpapers/Wallpaper7/Wallpaper7-Alb.jpeg" },
+            { name: "Alb-ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-Alb-ALT.jpeg" },
+            { name: "Alb-Dark", path: "./Wallpapers/Wallpaper7/Wallpaper7-Alb-Dark.jpeg" },
+            { name: "Alb-Dark-ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-Alb-Dark-ALT.jpeg" },
+            { name: "Alb-Light", path: "./Wallpapers/Wallpaper7/Wallpaper7-Alb-Light.jpeg" },
+            { name: "Min", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min.jpeg" },
+            { name: "Min-ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-ALT.jpeg" },
+            { name: "Min-Dark", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Dark.jpeg" },
+            { name: "Min-Dark-ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Dark-ALT.jpeg" },
+            { name: "Min-Light", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Light.jpeg" },
+            { name: "Min-Alb", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Alb.jpeg" },
+            { name: "Min-Alb-ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-ALT.jpeg" },
+            { name: "Min-Alb-Dark", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-Dark.jpeg" },
+            { name: "Min-Alb-Dark-ALT", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-Dark-ALT.jpeg" },
+            { name: "Min-Alb-Light", path: "./Wallpapers/Wallpaper7/Wallpaper7-Min-Alb-Light.jpeg" }
         ]
     },
     {
         name: "Wallpaper 8",
-        main: "./public/Wallpapers/Wallpaper8.jpeg",
-        variants: [{ name: "Original", path: "./public/Wallpapers/Wallpaper8.jpeg" }]
+        main: "./Wallpapers/Wallpaper8.jpeg",
+        variants: [{ name: "Original", path: "./Wallpapers/Wallpaper8.jpeg" }]
     },
     {
         name: "Wallpaper 9",
-        main: "./public/Wallpapers/Wallpaper9/Wallpaper9.jpeg",
+        main: "./Wallpapers/Wallpaper9/Wallpaper9.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper9/Wallpaper9.jpeg" },
-            { name: "No S3RL", path: "./public/Wallpapers/Wallpaper9/Wallpaper9-NoS3RL.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper9/Wallpaper9.jpeg" },
+            { name: "No S3RL", path: "./Wallpapers/Wallpaper9/Wallpaper9-NoS3RL.jpeg" }
         ]
     },
     {
         name: "Wallpaper 10",
-        main: "./public/Wallpapers/Wallpaper10.jpeg",
-        variants: [{ name: "Original", path: "./public/Wallpapers/Wallpaper10.jpeg" }]
+        main: "./Wallpapers/Wallpaper10.jpeg",
+        variants: [{ name: "Original", path: "./Wallpapers/Wallpaper10.jpeg" }]
     },
     {
         name: "Wallpaper 11",
-        main: "./public/Wallpapers/Wallpaper11/Wallpaper11.jpeg",
+        main: "./Wallpapers/Wallpaper11/Wallpaper11.jpeg",
         variants: [
-            { name: "Original", path: "./public/Wallpapers/Wallpaper11/Wallpaper11.jpeg" },
-            { name: "ALT", path: "./public/Wallpapers/Wallpaper11/Wallpaper11-ALT.jpeg" },
-            { name: "Min", path: "./public/Wallpapers/Wallpaper11/Wallpaper11-Min.jpeg" },
-            { name: "Min-ALT", path: "./public/Wallpapers/Wallpaper11/Wallpaper11-Min-ALT.jpeg" }
+            { name: "Original", path: "./Wallpapers/Wallpaper11/Wallpaper11.jpeg" },
+            { name: "ALT", path: "./Wallpapers/Wallpaper11/Wallpaper11-ALT.jpeg" },
+            { name: "Min", path: "./Wallpapers/Wallpaper11/Wallpaper11-Min.jpeg" },
+            { name: "Min-ALT", path: "./Wallpapers/Wallpaper11/Wallpaper11-Min-ALT.jpeg" }
         ]
     },
     {
         name: "Wallpaper 12",
-        main: "./public/Wallpapers/Wallpaper12.jpeg",
-        variants: [{ name: "Original", path: "./public/Wallpapers/Wallpaper12.jpeg" }]
+        main: "./Wallpapers/Wallpaper12.jpeg",
+        variants: [{ name: "Original", path: "./Wallpapers/Wallpaper12.jpeg" }]
     },
     {
         name: "Wallpaper 13",
-        main: "./public/Wallpapers/Wallpaper13/Wallpaper13-Dark.jpeg",
+        main: "./Wallpapers/Wallpaper13/Wallpaper13-Dark.jpeg",
         variants: [
-            { name: "Dark", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-Dark.jpeg" },
-            { name: "Light", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-Light.jpeg" },
-            { name: "ALT", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-ALT.jpeg" },
-            { name: "ALT 2", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-ALT-2.jpeg" },
-            { name: "ALT 3", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-ALT-3.jpeg" },
-            { name: "ALT 4", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-ALT-4.jpeg" },
-            { name: "ALT 5", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-ALT-5.jpeg" },
-            { name: "ALT 6", path: "./public/Wallpapers/Wallpaper13/Wallpaper13-ALT-6.jpeg" }
+            { name: "Dark", path: "./Wallpapers/Wallpaper13/Wallpaper13-Dark.jpeg" },
+            { name: "Light", path: "./Wallpapers/Wallpaper13/Wallpaper13-Light.jpeg" },
+            { name: "ALT", path: "./Wallpapers/Wallpaper13/Wallpaper13-ALT.jpeg" },
+            { name: "ALT 2", path: "./Wallpapers/Wallpaper13/Wallpaper13-ALT-2.jpeg" },
+            { name: "ALT 3", path: "./Wallpapers/Wallpaper13/Wallpaper13-ALT-3.jpeg" },
+            { name: "ALT 4", path: "./Wallpapers/Wallpaper13/Wallpaper13-ALT-4.jpeg" },
+            { name: "ALT 5", path: "./Wallpapers/Wallpaper13/Wallpaper13-ALT-5.jpeg" },
+            { name: "ALT 6", path: "./Wallpapers/Wallpaper13/Wallpaper13-ALT-6.jpeg" }
         ]
     },
     {
         name: "Wallpaper 14",
-        main: "./public/Wallpapers/Wallpaper14.jpeg",
-        variants: [{ name: "Original", path: "./public/Wallpapers/Wallpaper14.jpeg" }]
+        main: "./Wallpapers/Wallpaper14.jpeg",
+        variants: [{ name: "Original", path: "./Wallpapers/Wallpaper14.jpeg" }]
     },
     {
         name: "Wallpaper 15",
-        main: "./public/Wallpapers/Wallpaper15/Wallpaper15-1.jpeg",
+        main: "./Wallpapers/Wallpaper15/Wallpaper15-1.jpeg",
         variants: [
-            { name: "Version 1", path: "./public/Wallpapers/Wallpaper15/Wallpaper15-1.jpeg" },
-            { name: "Version 2", path: "./public/Wallpapers/Wallpaper15/Wallpaper15-2.jpeg" },
-            { name: "Version 3", path: "./public/Wallpapers/Wallpaper15/Wallpaper15-3.jpeg" }
+            { name: "Version 1", path: "./Wallpapers/Wallpaper15/Wallpaper15-1.jpeg" },
+            { name: "Version 2", path: "./Wallpapers/Wallpaper15/Wallpaper15-2.jpeg" },
+            { name: "Version 3", path: "./Wallpapers/Wallpaper15/Wallpaper15-3.jpeg" }
         ]
     },
     {
         name: "Wallpaper 16",
-        main: "./public/Wallpapers/Wallpaper16.jpeg",
-        variants: [{ name: "Original", path: "./public/Wallpapers/Wallpaper16.jpeg" }]
+        main: "./Wallpapers/Wallpaper16.jpeg",
+        variants: [{ name: "Original", path: "./Wallpapers/Wallpaper16.jpeg" }]
     }
 ];
 
