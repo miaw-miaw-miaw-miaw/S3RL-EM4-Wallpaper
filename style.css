@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./Wallpapers/Wallpaper9/Wallpaper9-NoS3RL.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Wallpapers/Wallpaper9/Wallpaper9-NoS3RL.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
